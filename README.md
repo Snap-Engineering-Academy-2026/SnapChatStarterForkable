@@ -18,7 +18,7 @@ gh repo clone your-username/repository-name
 # Install Packages
 1. Run the following command to be able to run your program.
 ```js
-$ npx expo installs
+$ npm install
 ```
 
 # Upstream VS Origin
