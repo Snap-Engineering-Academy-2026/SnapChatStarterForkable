@@ -21,16 +21,15 @@ gh repo clone your-username/repository-name
 $ npx expo installs
 ```
 
-# Set Up the Upstream Remote
-1. Add the original repository as a remote: This allows you to pull in updates from the original repository.
-```js
-$ git remote add upstream https://github.com/Snap-Engineering-Academy-2026/SnapChatStarterForkable.git
-```
-2. Verify the new remote named 'upstream'
+# Upstream VS Origin
+At this point you have two remote repositories that your project is connected to.
+ - **upstream** is the remote repository that is in the **Snap-Engineering-Academy-2026** organization
+ - **origin** is the remote repository in your **personal** account.
 
-```js
-$ git remote -v
-```
+<img width="633" height="621" alt="fork-and-clone" src="https://github.com/user-attachments/assets/8900e4bd-f751-4e2e-8002-9ccfa36b7260" />
+
+
+
 ##  Add Supabase Environment Variable!
 
 Get the code running! You'll need to rename `.env.example` to `.env.local` file. You should be able to reuse the Supabase keys from earlier's week project.
